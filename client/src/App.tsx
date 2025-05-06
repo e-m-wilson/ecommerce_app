@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import { Card, CardContent, Grid, Typography } from '@mui/material';
+import './App.css';
 
 function App() {
   const [activities, SetActivities] = useState<Activity[]>([]);
@@ -14,11 +16,23 @@ function App() {
   return (
     <>
       <h1>My App</h1>
-      <ul>
+      <Grid container spacing={2}>
         {activities.map((activity) => (
-          <li key={activity.id}>{activity.title}</li>
+          <Grid display="flex" size={{ xs: 12, sm: 6, md: 3, lg: 3 }}>
+            <Card key={activity.id} sx={{ width: 1, backgroundColor: "#009e96", color: "white" }} variant="outlined">
+              <CardContent>
+                <Typography>{activity.title}</Typography>
+                <Typography>{activity.category}</Typography>
+                <Typography>{activity.city}</Typography>
+                <Typography>{activity.date}</Typography>
+                <Typography>{activity.venue}</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
         ))}
-      </ul>
+      </Grid>
+
+
     </>
   )
 }

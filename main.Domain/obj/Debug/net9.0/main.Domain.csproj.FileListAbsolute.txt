@@ -21,3 +21,15 @@ C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_backend\main.Domain\obj
 C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_backend\main.Domain\obj\Debug\net9.0\refint\main.Domain.dll
 C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_backend\main.Domain\obj\Debug\net9.0\main.Domain.pdb
 C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_backend\main.Domain\obj\Debug\net9.0\ref\main.Domain.dll
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\bin\Debug\net9.0\main.Domain.deps.json
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\bin\Debug\net9.0\main.Domain.dll
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\bin\Debug\net9.0\main.Domain.pdb
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\obj\Debug\net9.0\main.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\obj\Debug\net9.0\main.Domain.AssemblyInfoInputs.cache
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\obj\Debug\net9.0\main.Domain.AssemblyInfo.cs
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\obj\Debug\net9.0\main.Domain.csproj.CoreCompileInputs.cache
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\obj\Debug\net9.0\main.Domain.sourcelink.json
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\obj\Debug\net9.0\main.Domain.dll
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\obj\Debug\net9.0\refint\main.Domain.dll
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\obj\Debug\net9.0\main.Domain.pdb
+C:\Users\EthanWilson\Git_Repos\dotnet_projects\ecommerce_app\main.Domain\obj\Debug\net9.0\ref\main.Domain.dll
