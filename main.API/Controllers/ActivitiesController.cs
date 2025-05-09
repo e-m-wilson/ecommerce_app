@@ -6,16 +6,8 @@ using main.Service.Activities.Commands;
 
 namespace main.API.Controllers;
 
-// this uses a primary constructor to inject the AppDbContext into the controller
-// this only works if we only need one item, otherwise we need to use a constructor
 public class ActivitiesController : ApiController
 {
-
-    // private readonly AppDbContext _context;
-    // public ActivitiesController(AppDbContext context)
-    // {
-    //     this._context = context;
-    // }
 
     [HttpGet]
     public async Task<ActionResult<List<Activity>>> GetActivities(CancellationToken ct)
