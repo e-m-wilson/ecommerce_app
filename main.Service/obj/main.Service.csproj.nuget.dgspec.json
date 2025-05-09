@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Service\\main.Service.csproj": {}
+    "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Service\\main.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Domain\\main.Domain.csproj": {
+    "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Domain\\main.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Domain\\main.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Domain\\main.Domain.csproj",
         "projectName": "main.Domain",
-        "projectPath": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Domain\\main.Domain.csproj",
-        "packagesPath": "C:\\Users\\EthanWilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Domain\\obj\\",
+        "projectPath": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Domain\\main.Domain.csproj",
+        "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EthanWilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ethan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,41 +59,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Repository\\main.Repository.csproj": {
+    "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Repository\\main.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Repository\\main.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Repository\\main.Repository.csproj",
         "projectName": "main.Repository",
-        "projectPath": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Repository\\main.Repository.csproj",
-        "packagesPath": "C:\\Users\\EthanWilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Repository\\obj\\",
+        "projectPath": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Repository\\main.Repository.csproj",
+        "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EthanWilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ethan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Domain\\main.Domain.csproj": {
-                "projectPath": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Domain\\main.Domain.csproj"
+              "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Domain\\main.Domain.csproj": {
+                "projectPath": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Domain\\main.Domain.csproj"
               }
             }
           }
@@ -142,44 +128,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Service\\main.Service.csproj": {
+    "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Service\\main.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Service\\main.Service.csproj",
+        "projectUniqueName": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Service\\main.Service.csproj",
         "projectName": "main.Service",
-        "projectPath": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Service\\main.Service.csproj",
-        "packagesPath": "C:\\Users\\EthanWilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Service\\obj\\",
+        "projectPath": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Service\\main.Service.csproj",
+        "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EthanWilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ethan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Domain\\main.Domain.csproj": {
-                "projectPath": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Domain\\main.Domain.csproj"
+              "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Domain\\main.Domain.csproj": {
+                "projectPath": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Domain\\main.Domain.csproj"
               },
-              "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Repository\\main.Repository.csproj": {
-                "projectPath": "C:\\Users\\EthanWilson\\Git_Repos\\dotnet_projects\\ecommerce_app\\main.Repository\\main.Repository.csproj"
+              "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Repository\\main.Repository.csproj": {
+                "projectPath": "C:\\Users\\ethan\\Git\\ecommerce_app\\main.Repository\\main.Repository.csproj"
               }
             }
           }
@@ -199,6 +178,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -215,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

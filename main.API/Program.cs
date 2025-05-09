@@ -1,9 +1,20 @@
 using main.Repository;
+using main.Service.Activities.Queries;
+using main.Service.Core;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+
+builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
+
+builder.Services.AddMediatR(options => {
+
+    options.RegisterServicesFromAssemblyContaining<GetActivityList.Handler>();
+
+});
+
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {

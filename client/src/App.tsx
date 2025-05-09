@@ -6,7 +6,10 @@ import Header from './Header';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#009e96'
+      main: '#479e9d',
+    },
+    secondary: {
+      main: '#d07b7e',
     }
   }
 });
