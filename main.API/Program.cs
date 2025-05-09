@@ -15,6 +15,15 @@ builder.Services.AddMediatR(options => {
 
 });
 
+builder.Services.AddCors(options => {
+    options.AddPolicy(
+        "AzurePolicy",
+        policy => 
+        {
+            policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+        }
+    );
+});
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
@@ -23,13 +32,7 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 builder.Services.AddCors();
 var app = builder.Build();
 
-app.UseCors(options =>
-{
-
-    options.AllowAnyHeader();
-    options.AllowAnyMethod();
-    options.WithOrigins("http://localhost:3000", "https://localhost:3000");
-});
+app.UseCors("AzurePolicy");
 
 app.UseHttpsRedirection();
 
